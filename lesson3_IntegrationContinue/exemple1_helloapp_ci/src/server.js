@@ -11,7 +11,7 @@ app.get('/', (req, res) => {
 // vérifier si le fichier est exécuté directement
 if (require.main === module) {
   app.listen(8088, function () {
-    console.log("app listening on port 8088, go to http://localhost:8088");
+    console.log('app listening on port 8088, go to http://localhost:8088');
   });
 }
 
